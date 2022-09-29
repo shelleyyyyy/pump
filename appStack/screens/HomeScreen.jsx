@@ -65,7 +65,7 @@ export default function HomeScreen() {
         return (
             <View style={styles.container}>
                 <SafeAreaView style={{justifyContent: 'center', alignItems: 'center', flexDirection: 'row'}}>
-                    <Text style={styles.text}>{data}</Text>
+                    <Text style={styles.text}>Pump</Text>
                     <Ionicons name={"barbell-outline"} size={100} color={"white"} />
                 </SafeAreaView>
                 <ScrollView>
