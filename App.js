@@ -4,7 +4,6 @@ import React, {useState, createContext} from 'react'
 import Login from './authStack/Login';
 import Navigation from './appStack/Navigation';
 
-
 export default function App() {
 
   const [isLoggedIn, setIsLoggedIn] = useState(true);
